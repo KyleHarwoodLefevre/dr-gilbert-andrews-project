@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dr Gilbert Andrews</title>
+    <link rel="stylesheet" href="../css/nmcss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--=============================================================================================-->
+    <script src="../js/contact.js"></script>
+    <!--=============================================================================================-->
+</head>
+<body>
+
+    <div class="container formDetails">
+        <h1>Contact Details;</h1>
+        <hr>
+        <p>To get incontact with "Dr Gilbery Andrews" you can use the following details below to contact him.</p>
+        <ul>
+            <li><strong>Phone-Number: </strong>01276 857090</li>
+            <li><strong>Email-Address: </strong>info@drandrewoffice.co.uk</li>
+        </ul> 
+    </div>
+
+    <div class="container contactContainer b-backstyle">
+        <!--================================== Contact Us Form ==========================================-->
+        <from class="formStyle w-backstyle">
+            <h1>Contact Us Form</h1>
+            <hr>
+            <label>Your Name;</label>
+            <input id="name" type="text" placeholder="Your Name" required>
+            <br>
+            <label>Your Email Address;</label>
+            <input id="email" type="text" placeholder="Your Email" required onblur="validateEmail(this.value);"> <!-- Checks that Email is valid before running other code -->
+            <br>
+            <label>Your Message to US;</label>
+            <textarea id="message" placeholder="Message!" required></textarea>
+            <br>
+            <button onclick="submit()">Send Message</button> <!-- When Button is clicked Run JavaScript Function -->
+        </from>
+        <!--=============================================================================================-->
+    </div>
+
+</body>
+</html>
