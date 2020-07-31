@@ -5,14 +5,15 @@ for the "nmcss.css" file
 =======================================================================================*/
 
 @import 'global-variables';
-@import 'header';
-@import 'statements';
-@import 'selection';
-@import 'content';
-@import 'footer';
+@import 'header_(k)';
+@import 'statements_(sm)';
+@import 'selection_(sm)';
+@import 'content_(k)';
+@import 'footer_(k)';
 
 /*=====================================================================================
 External Page Settings
 =======================================================================================*/
 
-@import 'contact';
+@import 'contact_(sm)';
+@import 'service_(sm)';

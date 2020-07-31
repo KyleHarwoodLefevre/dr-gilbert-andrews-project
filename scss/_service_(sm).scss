@@ -1,0 +1,35 @@
+/*=====================================================================================
+Settings/ Style for "Service Section"
+=======================================================================================*/
+
+.box{
+    padding: 20px;
+    margin: 20px auto auto auto;
+    width: 30em;
+    height: 30em;
+    text-align: center;
+    display: none;
+}
+
+.serviceContainer {
+    height: 35em;
+}
+
+.serviceTitle {
+    flex-direction: column !important;
+    width: 30em;
+    margin: auto;
+    h1, hr, p {margin: 0;}
+    select {width: 10em; margin: 1em;}
+    hr {width: 5em;}
+}
+
+.mood, .anxiety, .stress, .addic, .psychological, .psychiatry, .cbt {
+    img {
+        width: 15em;
+        height: 15em;
+        filter: grayscale(100%);
+        border-radius: 100%;
+        border: outset 0.5em;
+    }
+}

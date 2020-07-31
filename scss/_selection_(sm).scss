@@ -1,0 +1,44 @@
+/*=====================================================================================
+Settings/ Style for "Statements Section"
+=======================================================================================*/
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    h1 {margin-bottom: 0;}
+    hr {width: 8em;height: 0.1em;}
+    button {
+        height: 3em;
+        width: 11em;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+}
+
+.backTree {
+    background-image: url(../img/tree.png);
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.backDuck {
+    background-image: url(../img/duck.png);
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.selectionSub {
+    display: flex;
+    p, button {margin: 1em;padding:1em;}   
+    button {
+        border: solid #fff;
+        width: 12em;
+        font-size: 1.5em;
+        padding: 5px;
+    } 
+}
