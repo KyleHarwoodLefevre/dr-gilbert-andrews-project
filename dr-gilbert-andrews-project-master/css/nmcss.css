@@ -1,0 +1,135 @@
+/*=====================================================================================
+Gathers all "SCSS Partials" & converts them to "CSS Code"
+for the "nmcss.css" file
+=======================================================================================*/
+/*=====================================================================================
+Settings/ Style for "ALL Web-Pages"
+=======================================================================================*/
+/* line 5, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_global-variables.scss */
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+/* line 9, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_global-variables.scss */
+.b-style {
+  color: #070707;
+}
+
+/* line 11, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_global-variables.scss */
+.w-style {
+  color: #fff;
+}
+
+/*=====================================================================================
+Settings/ Style for "Header Section"
+=======================================================================================*/
+/*============ CLEARFIX ==============*/
+/* line 7, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*============ CLEARFIX ==============*/
+/* line 14, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+body {
+  height: 125vh;
+  font-family: 'Playfair Display', serif;
+}
+
+/*============ NAVBAR ==============*/
+/* line 21, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+nav {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+  border: 1px solid red;
+}
+
+/* line 32, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+nav a {
+  border: 1px solid red;
+}
+
+/* line 37, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+.fa-envelope {
+  font-size: 30px;
+}
+
+/*============ Banner Image ==============*/
+/* The hero image */
+/* line 43, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-image.jpg");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+/* line 58, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_header.scss */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*=====================================================================================
+Settings/ Style for "Content Section"
+=======================================================================================*/
+/*=====================================================================================
+Settings/ Style for "Footer Section"
+=======================================================================================*/
+/* line 4, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* line 8, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+.footer-nav, .fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+
+/* line 15, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+.footer-nav {
+  bottom: 0;
+}
+
+/* line 18, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+.fixed-footer {
+  bottom: 0;
+}
+
+/* line 21, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* Center the DIV horizontally */
+}
+
+/* line 25, D:/Pairs Project - Samuel & Kyle/dr-gilbert-andrews-project/dr-gilbert-andrews-project-master/scss/_footer.scss */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=nmcss.css.map */

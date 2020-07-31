@@ -1,0 +1,10 @@
+
+/*=====================================================================================
+Gathers all "SCSS Partials" & converts them to "CSS Code"
+for the "nmcss.css" file
+=======================================================================================*/
+
+@import 'global-variables';
+@import 'header';
+@import 'content';
+@import 'footer';
