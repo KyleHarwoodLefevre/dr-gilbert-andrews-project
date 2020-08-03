@@ -10,13 +10,16 @@
     <!--=============================================================================================-->
     <script src="../js/contact.js"></script>
     <!--=============================================================================================-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <!--=============================================================================================-->
 </head>
 <body>
 
     <div class="container formDetails">
         <h1>Contact Details;</h1>
         <hr>
-        <p>To get incontact with "Dr Gilbery Andrews" you can use the following details below to contact him.</p>
+        <p>To get incontact with "Dr Gilbert Andrews" you can use the following details below to contact him.</p>
         <ul>
             <li><strong>Phone-Number: </strong>01276 857090</li>
             <li><strong>Email-Address: </strong>info@drandrewoffice.co.uk</li>
@@ -41,6 +44,14 @@
         </from>
         <!--=============================================================================================-->
     </div>
+
+    <div class="map-container">
+        <h1>Location:</h1>
+        <hr>
+        <div id ="map"></div>
+    </div>
+
+    <script src="../js/map.js"></script>
 
 </body>
 </html>
