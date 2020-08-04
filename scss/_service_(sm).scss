@@ -18,10 +18,17 @@ Settings/ Style for "Service Section"
 .serviceTitle {
     flex-direction: column !important;
     width: 30em;
-    margin: auto;
+    margin: auto 0;
     h1, hr, p {margin: 0;}
     select {width: 10em; margin: 1em;}
-    hr {width: 5em;}
+    hr {width: 5em; margin: 0.5em auto 0.5em 0;}
+    
+}
+
+.serviceImg {
+    width: 28em;
+    height: 16em;
+    filter: grayscale(100%);
 }
 
 .mood, .anxiety, .stress, .addic, .psychological, .psychiatry, .cbt {

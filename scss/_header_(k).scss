@@ -25,13 +25,13 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   height: 80px;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 
 nav { 
-  a { 
-    border: 1px solid red; 
-  } 
+  .btn-home{
+    border: 1px solid red;
+  }
 }
 
 .fa-envelope {

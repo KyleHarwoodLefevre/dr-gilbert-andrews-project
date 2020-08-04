@@ -6,7 +6,7 @@ Settings/ Style for "Content Section"
     flex-direction: column !important;
     padding: 1em;
     li {list-style: none;}
-    hr {width: 5em;position: relative;right: 55.9em;}
+    hr {width: 5em;margin: 0.5em auto 0.5em 0;}
     h1 {margin: 0;}
 }
 
@@ -20,7 +20,7 @@ Settings/ Style for "Content Section"
     width: 30em;
     height: 20em;
     h1 {margin: 0;}
-    hr {width: 5em;position: relative;right: 12.5em;}
+    hr {width: 5em;margin: 0.5em auto 0.5em 0;}
     input {width: 15em;}
     button {width: 8em; height: 3em;}
 }
@@ -59,11 +59,7 @@ Settings/ Style for "Map Section"
     display: flex;
     flex-direction: column;
     h1 {margin-bottom: 0;}
-    hr {
-        width: 5em;
-        position: relative;
-        right: 14.99em;
-    }
+    hr {width: 5em;margin: 0.5em auto 0.5em 0;}
   }
 
 /*=====================================================================================*/

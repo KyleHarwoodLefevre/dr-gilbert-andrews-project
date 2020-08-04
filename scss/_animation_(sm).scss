@@ -1,0 +1,35 @@
+/*=============== Fading in Aniamtion ===================*/
+html {
+    animation: transitionIn 1.75s;
+}
+
+@keyframes transitionIn { /* Creates an Animation Variable to be called */
+    from {
+        opacity: 0;
+        transform: rotateX(-18deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+/*====================================================*/
+
+/*============ Spinning Animation =================*/
+img {
+    animation: spinIn 1.75s;
+}
+
+@keyframes spinIn { /* Creates an Animation Variable to be called */
+    from {
+        opacity: 0;
+        transform: rotate(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+/*====================================================*/

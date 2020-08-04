@@ -14,10 +14,11 @@ Settings/ Style for "ALL Web-Pages"
 
 .uppercase {text-transform: uppercase;}
 
+.center{justify-content: center;}
+
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .content-container {
@@ -28,7 +29,6 @@ Settings/ Style for "ALL Web-Pages"
     padding: 1em 2em;
     hr {
         width: 5em;
-        position: relative;
-        right: 12.5em;
+        margin: 0.5em auto 0.5em 0;
     }
 }
