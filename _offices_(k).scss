@@ -1,0 +1,221 @@
+/*=====================================================================================
+Settings/ Style for "Content Section"
+=======================================================================================*/
+.image-board {
+  margin: 0px;
+  height: 800px;
+  background-color: #27282C;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  border-top: 100px solid lightgrey;
+  border-bottom: 100px solid lightgrey;
+}
+
+.office-images {
+  display: flex;
+  color: white;
+  background-color: #27282C;
+  height: 400px;
+  .image-selector {
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 50%;
+    }
+  }
+}
+.office-text {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+.addresses {
+  display: flex;
+  background-color: #27282C;
+  flex-direction: row;
+  height: 350px;
+  flex-wrap: wrap;
+  .container {
+    width: 33.33%;
+    height: 350px;
+  }
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.gilford-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.woking-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.windsor-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+h2 {
+  padding: 15px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #27282C;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nav-help {
+  justify-content: flex-end;
+  color: white;
+  text-align: center;
+  margin-left: 0px;
+}
+/*==============================================================================
+====================== MEDIA QUERY ===========================================*/
+@media all and (min-width: 1400px) {
+  .image-board {
+    height: 910px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1400px) {
+  .image-board {
+    height: 910px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .image-board {
+    height: 1050px;
+  }
+  .office-images {
+    height: 350px;
+    .image-selector {
+      display: none;
+    }
+  }
+  .office-images img {
+    width: 50%;
+  }
+  .addresses {
+    flex-wrap: wrap;
+    .container {
+      width: 50%;
+      height: 350px;
+    }
+  }
+  .nav-help {
+    width: 50%;
+    h4 {
+      font-size: 1em;
+    }
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .image-board {
+    height: 870px;
+  }
+  .office-images {
+    height: 290px;
+    .image-selector {
+      display: none;
+    }
+  }
+  .office-images img {
+    width: 50%;
+    height: 290px;
+  }
+  .addresses {
+    flex-wrap: wrap;
+    .container {
+      width: 50%;
+      height: 290px;
+    }
+  }
+  .nav-help {
+    width: 50%;
+    h4 {
+      font-size: 0.9em;
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .image-board {
+    height: 1510px;
+  }
+  .office-images {
+    height: 350px;
+    .image-selector {
+      display: none;
+    }
+  }
+  .office-images img {
+    width: 50%;
+    display: none;
+  }
+  .addresses {
+    flex-wrap: wrap;
+    .container {
+      width: 100%;
+      height: 300px;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .image-board {
+    height: 1400px;
+  }
+  .office-images {
+    height: 225px;
+    .image-selector {
+      display: none;
+    }
+  }
+  .office-images img {
+    width: 50%;
+    display: none;
+  }
+  .addresses {
+    flex-wrap: wrap;
+    .container {
+      width: 100%;
+      height: 250px;
+    }
+  }
+  .office-text {
+    margin-top: 0px;
+  }
+}
