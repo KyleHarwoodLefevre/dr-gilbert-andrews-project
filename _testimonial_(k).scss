@@ -1,0 +1,76 @@
+/*=====================================================================================
+Settings/ Style for "Testimonials Section"
+=======================================================================================*/
+body {
+  height: 125vh;
+  margin: auto;
+}
+img {
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+h1 {
+  margin: 15px;
+  text-align: center;
+}
+.test-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3d4d4;
+  .test-container {
+    background-color: #27282C;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 80%;
+    .test-text {
+      color: white;
+      padding: 10px;
+      .fa-check-circle {
+        color: #a4f0a1;
+      }
+    }
+  }
+}
+h2 {
+  margin: 10px;
+  color: #67686b;
+}
+h3 {
+  margin-top: 0px;
+  small {
+    font-size: .6em;
+    font-weight: 75;
+    color: #bebebf;
+  }
+}
+h4 {
+  border-top: 1px solid #525256;
+  border-bottom: 1px solid #525256;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+h6 {
+  text-align: left;
+  margin: 5px;
+  color: #bebebf;
+  font-style: italic;
+}
+hr {
+  border: 1px solid white;
+  width: 90%;
+}
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  font-size: 1em
+}
