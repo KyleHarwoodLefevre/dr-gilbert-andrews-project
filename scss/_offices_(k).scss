@@ -36,12 +36,12 @@ Settings/ Style for "Content Section"
   flex-direction: row;
   height: 350px;
   flex-wrap: wrap;
-  .container {
+  .con {
     width: 33.33%;
     height: 350px;
   }
 }
-.containerAddress {
+.con {
   position: relative;
   width: 50%;
 }
@@ -80,7 +80,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.container:hover .overlay {
+.con:hover .overlay {
   opacity: 1;
 }
 
@@ -129,7 +129,7 @@ h2 {
   }
   .addresses {
     flex-wrap: wrap;
-    .container {
+    .con {
       width: 50%;
       height: 350px;
     }
@@ -158,7 +158,7 @@ h2 {
   }
   .addresses {
     flex-wrap: wrap;
-    .container {
+    .con {
       width: 50%;
       height: 290px;
     }
@@ -187,7 +187,7 @@ h2 {
   }
   .addresses {
     flex-wrap: wrap;
-    .container {
+    .con {
       width: 100%;
       height: 300px;
     }
@@ -210,7 +210,7 @@ h2 {
   }
   .addresses {
     flex-wrap: wrap;
-    .container {
+    .con {
       width: 100%;
       height: 250px;
     }
