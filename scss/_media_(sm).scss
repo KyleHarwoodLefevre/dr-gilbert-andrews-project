@@ -1,0 +1,62 @@
+/*=====================================================================================
+Settings for variables 
+to be able to adapt to changes
+=======================================================================================*/
+
+/*============================= Contact Page/ Style ===================================*/
+@media screen and (max-width: 768px){ /* Applies New Setting, Styles and Positions to Windows that are at 768 Resolution */
+    .container {width: 109%;}
+    .contactContainer {width: 113% !important; textarea{margin-top: 1em;}}
+    #map {width: 60em; height: 70%; margin-left: 10em;}
+}
+
+@media screen and (max-width: 425px){
+    .container {width: 142%;}
+    .contactContainer {
+        width: 150% !important; 
+        .formStyle {
+            width: 20em;
+            height: 22em;
+            font-size: 20px;
+            
+           textarea, input {
+                height: 3em;
+                border: solid;
+                border-radius: 1em;
+                margin: 2px;
+                padding: 5px;
+            } 
+        }
+        
+    }
+    #map {width: 40em; margin-left: 20em;}
+}
+
+@media screen and (max-width: 375px){
+    #map {margin-left: 15em;}
+}
+/*=====================================================================================*/
+
+/*=========================== Selection Page/ Style ===================================*/
+@media screen and (max-width: 425px){
+    .container{flex-direction: column;}
+    .sectionContainer{margin: 1em auto 1em auto;}
+}
+/*=====================================================================================*/
+
+/*============================= Service Page/ Style ===================================*/
+@media screen and (max-width: 320px){
+    .box {margin: 20px auto auto 11px;width: 26em;}
+}
+/*=====================================================================================*/
+
+/*========================= Open Statement Page/ Style ================================*/
+@media screen and (max-width: 425px){
+    .content-container{width: 42em;}
+    .container{width: 166%;}
+}
+
+@media screen and (max-width: 375px){
+    .container{width: 200%;}
+}
+/*=====================================================================================*/

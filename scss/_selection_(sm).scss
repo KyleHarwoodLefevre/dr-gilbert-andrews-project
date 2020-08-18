@@ -17,6 +17,7 @@ Settings/ Style for "Statements Section"
         width: 11em;
         font-size: 1em;
         margin: 0 auto;
+        text-decoration: none;
     }
 }
 
@@ -41,4 +42,20 @@ Settings/ Style for "Statements Section"
         font-size: 1.5em;
         padding: 5px;
     } 
+}
+
+/*=====================================================================================
+Settings/ Style for "Content Section"
+=======================================================================================*/
+
+.contentSet {
+    width: 25.5em;
+    font-size: 2em;
+    margin: auto;
+    i {margin: 1em;}
+}
+
+.iconDown {
+    position: relative;
+    top: 7em;
 }
