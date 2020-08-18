@@ -2,7 +2,7 @@
 Settings/ Style for "Service Section"
 =======================================================================================*/
 
-.box{
+.box{ /* Applies setting/ style to target element */
     padding: 20px;
     margin: 20px auto auto auto;
     width: 30em;
@@ -11,11 +11,11 @@ Settings/ Style for "Service Section"
     display: none;
 }
 
-.serviceContainer {
+.serviceContainer { /* Applies setting/ style to target element */
     height: 35em;
 }
 
-.serviceTitle {
+.serviceTitle { /* Applies setting/ style to target element */
     flex-direction: column !important;
     width: 30em;
     margin: auto 0;
@@ -25,14 +25,14 @@ Settings/ Style for "Service Section"
     
 }
 
-.serviceImg {
+.serviceImg { /* Applies setting/ style to target element */
     width: 28em;
     height: 16em;
     filter: grayscale(100%);
 }
 
 .mood, .anxiety, .stress, .addic, .psychological, .psychiatry, .cbt {
-    img {
+    img { /* Applies setting/ style to target element */
         width: 15em;
         height: 15em;
         filter: grayscale(100%);

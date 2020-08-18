@@ -4,14 +4,14 @@ Settings/ Style for "Statements Section"
 
 .noCenter {justify-content: unset !important;}
 
-.experience-style {
+.experience-style { /* Applies setting/ style to target element */
     width: 35em;
     padding-left: 8em;
     padding-bottom: 2em;
     hr {right: 14.7em;}
 }
 
-.e-bimage {
+.e-bimage { /* Applies setting/ style to target element */
     background-image: url(../img/experience.png);
     background-repeat: no-repeat;
     background-position-x: right;

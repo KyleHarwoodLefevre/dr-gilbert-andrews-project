@@ -2,7 +2,7 @@
 Settings/ Style for "Statements Section"
 =======================================================================================*/
 
-.sectionContainer {
+.sectionContainer { /* Applies setting/ style to target element */
     display: flex;
     flex-direction: column;
     width: 20em;
@@ -21,19 +21,19 @@ Settings/ Style for "Statements Section"
     }
 }
 
-.backTree {
+.backTree { /* Applies setting/ style to target element */
     background-image: url(../img/tree.png);
     background-size: cover;
     filter: grayscale(100%);
 }
 
-.backDuck {
+.backDuck { /* Applies setting/ style to target element */
     background-image: url(../img/duck.png);
     background-size: cover;
     filter: grayscale(100%);
 }
 
-.selectionSub {
+.selectionSub { /* Applies setting/ style to target element */
     display: flex;
     p, button {margin: 1em;padding:1em;}   
     button {
@@ -48,14 +48,14 @@ Settings/ Style for "Statements Section"
 Settings/ Style for "Content Section"
 =======================================================================================*/
 
-.contentSet {
+.contentSet { /* Applies setting/ style to target element */
     width: 25.5em;
     font-size: 2em;
     margin: auto;
     i {margin: 1em;}
 }
 
-.iconDown {
+.iconDown { /* Applies setting/ style to target element */
     position: relative;
     top: 7em;
 }

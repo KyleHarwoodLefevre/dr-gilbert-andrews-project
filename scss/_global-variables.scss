@@ -2,27 +2,27 @@
 Settings/ Style for "ALL Web-Pages"
 =======================================================================================*/
 
-* {
+* { /* Applies a style/ theme to all elements within the html project */
     font-family: 'Playfair Display', serif;
     a {cursor: pointer;}
 }
 
-.b-style {color: #27282C;}
-.b-backstyle {background-color: #27282C;}
+.b-style {color: #27282C;} /* Applies a colour change */
+.b-backstyle {background-color: #27282C;} /* Applies a background colour change */
 
-.w-style {color: #fff;}
-.w-backstyle {background-color: #fff;}
+.w-style {color: #fff;} /* Applies a colour change */
+.w-backstyle {background-color: #fff;} /* Applies a background colour change */
 
-.uppercase {text-transform: uppercase;}
+.uppercase {text-transform: uppercase;} /* Converts text from normal to uppercase */
 
-.center{justify-content: center;}
+.center{justify-content: center;} /* Applies a rule that centers the target element */
 
-.container {
+.container { /* Applies a set of rules for variables to follow */
     display: flex;
     flex-direction: row;
 }
 
-.content-container {
+.content-container { /* Applies a style/ theme to target elements */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

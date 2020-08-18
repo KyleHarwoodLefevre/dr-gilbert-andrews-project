@@ -1,15 +1,15 @@
 /*=============== Fading in Aniamtion ===================*/
-html {
+html { /* Triggers the animation when the web-element loads for first time */
     animation: transitionIn 1.75s;
 }
 
 @keyframes transitionIn { /* Creates an Animation Variable to be called */
-    from {
+    from { /* Starting point/ settings for animation */
         opacity: 0;
         transform: rotateX(-18deg);
     }
 
-    to {
+    to { /* Ending point/ settings for animation */
         opacity: 1;
         transform: rotateX(0);
     }
@@ -17,17 +17,17 @@ html {
 /*====================================================*/
 
 /*============ Spinning Animation =================*/
-img {
-    transform-origin: right;
+img { /* Triggers the animation when the web-element loads for first time */
+    transform-origin: right; 
     animation: slideIn 1.75s;
 }
 
 @keyframes slideIn { /* Creates an Animation Variable to be called */
-    from {
+    from { /* Starting point/ settings for animation */
         transform: scaleX(0);
     }
 
-    to {
+    to { /* Ending point/ settings for animation */
         transform: scaleX(1);
     }
 }
